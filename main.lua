@@ -1,0 +1,12 @@
+print("The First Number Is You Interest Rate, The Second Number Is Your Number Of Payments In A Year, The Third Number Is The Balance Of Your Loan: ")
+print("Interest Rate: ")
+local IR = io.read()
+print("Number Of Payments In A Year: ")
+local PIY = io.read()
+print("Loan Balance: ")
+local LB = io.read() 
+local Result = (IR / PIY) * LB
+print("The Result Is: ")
+print(Result)
+print("Press ENTER To Close The Program")
+io.read()
